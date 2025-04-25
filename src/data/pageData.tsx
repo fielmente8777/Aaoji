@@ -18,7 +18,7 @@ export const pageData = {
     ],
   },
   aboutUsData: {
-    title: "About Moets",
+    title: "About Aaoji",
     subtitle: "What Aaoji is all about!",
     desc: "Founded in 2020, Aaoji was born out of a passion for bringing authentic, bold flavors to the streets, offering a fun twist on traditional cuisine. We’ve quickly become a favorite destination for locals and travelers alike, serving up not just meals, but unforgettable experiences. Whether you're stopping by for a quick bite or settling in for a leisurely meal, we take pride in offering delicious dishes made from the finest, locally sourced ingredients.",
     boldDesc: '<b>“Dr. Kulwinder Singh and Satish Luthra started Aaoji with a purpose to serve food that stays with the heart.”</b>',
