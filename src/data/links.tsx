@@ -96,7 +96,7 @@ export const FooterLink: footerLinkProps[] = [
       {
         id: 2,
         title: "email",
-        label: "operations.elanmall@moets.com",
+        label: "aaojirestaurantnh9@gmail.com",
         href: "mailto:aaojirestaurantnh9@gmail.com",
       },
       {
