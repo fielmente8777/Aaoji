@@ -24,7 +24,7 @@ const NextChapter: React.FC<theNextChapter> = ({
   images,
 }) => {
   return (
-    <Section id="nextChapter" className="bg-secondary bg_image">
+    <Section id="nextChapter" className="bg-secondary ">
       <SectionWithContainer containerClassName="relative px-4">
         <div className="flex flex-col lg:gap-6 gap-4 items-center justify-center">
           <div className="border-t-[1px] border-b-[1px] border-l-0 border-r-0 border-solid border-[#e42a03] max-w-max">

@@ -32,7 +32,7 @@ const Gallery: React.FC<GalleryDataProps> = ({
   return (
     <SectionWithContainer
       sectionId="gallery"
-      sectionClassName="bg-gradient-to-b from-white to-secondary bg_bottom_image"
+      sectionClassName="bg-[#DDC67B]"
     >
       <div className="flex flex-col items-center justify-center w-full lg:gap-14 gap-6 commonSwiper">
         <div className="w-full flex items-center justify-center flex-col gap-6">

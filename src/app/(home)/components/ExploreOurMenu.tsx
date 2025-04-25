@@ -13,6 +13,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 interface exploreOurMenu {
   title: string;
+  subtitle:string;
   cards: {
     id: number;
     src: string;
@@ -23,10 +24,9 @@ interface exploreOurMenu {
   }[];
 }
 
-const ExploreOurMenu: React.FC<exploreOurMenu> = ({ title, cards, buttons }) => {
+const ExploreOurMenu: React.FC<exploreOurMenu> = ({ title, cards, buttons,subtitle }) => {
   return (
     <SectionWithContainer
-      sectionClassName="bg-gradient-to-b from-white to-secondary bg_bottom_image"
       sectionId="menu"
     >
       <div className="flex flex-col gap-6 lg:gap-10 items-center justify-center max-sm:overflow-hidden">
@@ -38,7 +38,11 @@ const ExploreOurMenu: React.FC<exploreOurMenu> = ({ title, cards, buttons }) => 
             className="text-center heading1 artifex tracking-wide text-primary"
           />
         </div>
-
+        <MainHeading
+            h3
+            title={subtitle}
+            className="text-center largeHeading mendl text-primary uppercase"
+          />
         {/* Swiper Section */}
         <div className="w-full relative commonSwiper">
           <SliderSwip

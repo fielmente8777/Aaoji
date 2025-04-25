@@ -101,7 +101,7 @@ const Form = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex p-6 flex-col gap-4 text-base w-full h-full  rounded-lg text-secondary"
+      className="flex p-6 flex-col gap-4 text-base w-full h-full  rounded-lg text-secondary bg-white"
       id="contact"
 
     >

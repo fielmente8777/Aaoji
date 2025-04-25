@@ -9,7 +9,7 @@ const TestimonialCard: React.FC<testimonialProps["cards"][0]> = ({
   src,
 }) => {
   return (
-    <div className="w-full flex flex-col gap-6 border border-primary rounded-lg py-8 px-6 shadow-md h-[328px]">
+    <div className="w-full flex flex-col gap-6 border border-primary rounded-lg py-8 px-6 shadow-md h-[328px] bg-white">
       <div className="relative w-10 aspect-square">
         <Image
           src={src}

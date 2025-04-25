@@ -13,7 +13,7 @@ const Footer = () => {
       <SectionWithContainer sectionClassName="">
         <div className="w-full grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 lg:gap-20">
           <div className="w-full flex flex-col lg:gap-4 gap-2 max-sm:items-center">
-            <div className="relative aspect-[4/3] w-[10rem]">
+            <div className="relative aspect-[4/3] w-[10rem]" style={{marginTop:"-20px"}}>
               <Image
                 src={"/logo.png"}
                 alt="Aaoji"

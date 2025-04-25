@@ -31,7 +31,7 @@ const Banner: React.FC<BannerProps> = ({
                 {subTitle}
               </h1>
             </div>
-            <h2 className="largeHeading uppercase mendl font-bold max-sm:text-center">
+            <h2 className="largeHeading mendl font-bold max-sm:text-center">
               {title}
             </h2>
             <div className="lg:hidden block relative w-full aspect-[4/2.9]">
@@ -39,7 +39,7 @@ const Banner: React.FC<BannerProps> = ({
             </div>
             <Paragraph
               className={
-                "mt-4 description1 avenir max-sm:text-center font-light"
+                "mt-4 description1 avenir max-sm:text-center font-light text-dark"
               }
               text={desc}
             />
@@ -63,7 +63,7 @@ const Banner: React.FC<BannerProps> = ({
           </div>
         </div>
         <div className="lg:col-span-4 w-full py-4 ps-8 relative lg:block hidden lg:-mr-8">
-          <div className="relative w-full max-w-4xl aspect-[4/2.5]">
+          <div className="relative w-full max-w-4xl aspect-[4/2.5] ml-16 pl-10">
             <Image src={src} alt="alt" height={712} width={600} className="object-cover " />
           </div>
         </div>

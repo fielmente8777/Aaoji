@@ -30,7 +30,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </head>
       <body
-        className={`${geistSans.variable} ${nunito.variable} antialiased`}
+        className={`${geistSans.variable} ${nunito.variable} antialiased back-colour-whole`}
         suppressHydrationWarning={true}
       >
         <Navbar />
