@@ -140,7 +140,7 @@ const RenderChatBot = () => {
       finalMessage={chatbotData?.thankYouMessage || ""}
       messageFlows={chatbotData?.messagesFlow}
       title={chatbotData?.title}
-      theme={chatbotData?.theme}
+      theme={"#d1867f"}
       openInterval={eazbotConfig?.interval}
       logo={chatbotData?.logo?.url}
       setIsOpenChatbot={setIsOpen}
