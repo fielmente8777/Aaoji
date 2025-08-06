@@ -12,7 +12,7 @@ import {
 } from "./components";
 export default function Home() {
   return (
-    <main className="backg-custom-new">
+    <main className="backg-custom-new ">
       <Banner {...pageData.bannerData} />
       <About {...pageData.aboutUsData} />
       <NextChapter {...pageData.theNextChapter} />

@@ -22,6 +22,10 @@ const Navbar: React.FC = () => {
   //     document.body.style.overflow = "auto";
   //   };
   // }, [isOpen]);
+  const pathName = usePathname();
+  if (pathName === "/thank-you" || pathName === "/thank-you/") {
+    return null;
+  }
 
   return (
     <header className="max-w-[1600px] mx-auto w-full bg-secondary">

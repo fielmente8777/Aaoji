@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Nunito } from "next/font/google";
 import "./globals.scss";
 import { Call, Footer, Navbar, Whatsapp } from "@/components";
+import RenderChatBot from "@/components/LeadChatbot/RenderChatBot";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${nunito.variable} antialiased back-colour-whole`}
         suppressHydrationWarning={true}
       >
+        <RenderChatBot  />
         <Navbar />
         {children}
         <Footer />

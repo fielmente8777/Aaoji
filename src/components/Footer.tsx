@@ -4,10 +4,14 @@ import SectionWithContainer from "./SectionComponents/SectionWithContainer";
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
+import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-
+const pathName = usePathname();
+  if (pathName === "/thank-you" || pathName === "/thank-you/") {
+    return null;
+  }
   return (
     <footer className="max-screen w-full bg-secondary bg_top_image">
       <SectionWithContainer sectionClassName="">

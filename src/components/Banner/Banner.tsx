@@ -22,7 +22,7 @@ const Banner: React.FC<BannerProps> = ({
   subTitle,
 }) => {
   return (
-    <section className="max-w-[1600px] mx-auto w-full text-primary pb-10 lg:pt-[40px] pt-6 relative">
+    <section className="max-w-[1600px] overflow-x-hidden mx-auto w-full text-primary pb-10 lg:pt-[40px] pt-6 relative">
       <div className="grid lg:grid-cols-7 items-center gap-5 lg:gap-10 justify-center grid-cols-1 relative z-10">
         <div className="w-full lg:col-span-3 max-md:pt-4">
           <div className="flex flex-col lg:gap-4 gap-1 w-full ml-auto max-w-lg max-sm:px-4 max-sm:items-center">

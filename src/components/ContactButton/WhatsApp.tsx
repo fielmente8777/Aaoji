@@ -1,10 +1,16 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 function Whatsapp({ whatsAppNumber }: { whatsAppNumber: string }) {
+  const pathName = usePathname();
+    if (pathName === "/thank-you" || pathName === "/thank-you/") {
+      return null;
+    }
   return (
-    <div className="fixed  bottom-10 lg:right-3 right-4 z-20 cursor-pointer ">
+    <div className="fixed  bottom-24 lg:left-3 left-4 z-20 cursor-pointer ">
       <Link
         href={`https://wa.me/+91${whatsAppNumber}?text=Hello`}
         target="_blank"

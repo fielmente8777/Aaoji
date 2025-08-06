@@ -1,8 +1,14 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React from "react";
 import { IoCall } from "react-icons/io5";
 
 function Call({ callNumber }: { callNumber: string }) {
+  const pathName = usePathname();
+    if (pathName === "/thank-you" || pathName === "/thank-you/") {
+      return null;
+    }
   return (
     <div className="fixed bottom-10 lg:left-3  left-4 z-20 cursor-pointer">
       <Link
