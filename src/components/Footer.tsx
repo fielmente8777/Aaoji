@@ -90,9 +90,16 @@ const pathName = usePathname();
             © {currentYear} Aaoji. <br className="lg:hidden" />
             All Rights Reserved. <br className="lg:hidden" />
             Designed & Developed by{" "}
-            <Link href="https://eazotel.com" className="font-bold">
+            {/* <Link href="https://eazotel.com" className="font-bold">
               Eazotel
-            </Link>
+            </Link> */}
+             <Link
+                href="https://www.fielmente.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Fielmente
+              </Link>
           </p>
           {/* <p className="">Terms of Service Privacy Policy</p> */}
         </div>
